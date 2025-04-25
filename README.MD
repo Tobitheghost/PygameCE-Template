@@ -6,8 +6,8 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 ## Setup
 
 1. **Getting the Files**
-	Clone the repository where {{repository_url}} is the "Clone web URL."
-    `git clone {{repository_url}}`
+	Clone the repository.
+    `git clone https://github.com/Tobitheghost/PygameCE-Template.git`
 
 	Or download the Zip file.
 
@@ -15,31 +15,46 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 2. **Virtual Environment** 
 	To create a virtual environment, go to the **/Games** folder and run the following command. This will create a new virtual environment in a folder named `.venv`:
 	
-    Windows: `py -m venv .venv`
-    Mac/Linux: `python3 -m venv .venv`
+    Windows: 
+    `py -m venv .venv`
+    
+    Mac/Linux: 
+    `python3 -m venv .venv`
+
 
     Next you will need to Activate the virtual environment. This will put the virtual environment-specific python and pip executables into your shell’s `PATH`.
 
-    Windows: `.venv\Scripts\activate`
-    Mac/Linux: `source .venv/bin/activate`
+    Windows:
+    `.venv\Scripts\activate`
+    
+    Mac/Linux:
+    `source .venv/bin/activate`
 
     <details>
-        <summary>Tip</summary>
+        <summary>[!TIP]</summary>
         If you want to switch projects or leave your virtual environment, deactivate    the environment with the following command:
 
         `deactivate`
     </details>
 
+
     Lastly you will download the requirements.
 
-    Windows: `py -m pip install -r requirements.txt`
-    Mac/Linux: `python3 -m pip install -r requirements.txt`
+    Windows: 
+    `py -m pip install -r requirements.txt`
+    
+    Mac/Linux: 
+    `python3 -m pip install -r requirements.txt`
+
 
 3. **Running**
     You can now run the program from the **/Games** folder with the following command.
 
-    Windows: `py main.py`
-    Mac/Linux: `python3 main.py`
+    Windows: 
+    `py main.py`
+    
+    Mac/Linux: 
+    `python3 main.py`
 
 ## Getting Started
 #### Creating 'Screens'.
