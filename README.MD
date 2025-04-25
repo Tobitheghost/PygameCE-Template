@@ -8,7 +8,7 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 1. **Getting the Files**
 	Clone the repository.
 
-    `git clone https://github.com/Tobitheghost/PygameCE-Template.git`
+        `git clone https://github.com/Tobitheghost/PygameCE-Template.git`
 
 	Or download the Zip file.
 
@@ -18,28 +18,28 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 	
     Windows: 
 
-    `py -m venv .venv`
+        `py -m venv .venv`
     
     Mac/Linux: 
 
-    `python3 -m venv .venv`
+        `python3 -m venv .venv`
 
 
     Next you will need to Activate the virtual environment. This will put the virtual environment-specific python and pip executables into your shell’s `PATH`.
 
     Windows:
 
-    `.venv\Scripts\activate`
+        `.venv\Scripts\activate`
     
     Mac/Linux:
 
-    `source .venv/bin/activate`
+        `source .venv/bin/activate`
 
     <details>
         <summary>Tips</summary>
-        If you want to switch projects or leave your virtual environment, deactivate    the environment with the following command:
+        If you want to switch projects or leave your virtual environment, deactivate the environment with the following command:
 
-        `deactivate`
+        deactivate
     </details>
 
 
@@ -47,11 +47,11 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 
     Windows: 
 
-    `py -m pip install -r requirements.txt`
+        `py -m pip install -r requirements.txt`
     
     Mac/Linux: 
 
-    `python3 -m pip install -r requirements.txt`
+        `python3 -m pip install -r requirements.txt`
 
 
 3. **Running**
@@ -59,11 +59,11 @@ This is a starting template for Pygame CE. It has a state machine (inspired by [
 
     Windows: 
 
-    `py main.py`
+        `py main.py`
     
     Mac/Linux: 
 
-    `python3 main.py`
+        `python3 main.py`
 
 ## Getting Started
 #### Creating 'Screens'.
